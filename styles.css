@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Barlow Semi Condensed", "Courier New", Courier, monospace;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.cards {
+  max-width: 2000px;
+  /*   max width screen extends to */
+  margin: 100px auto;
+  /*   top bottom 100px sides auto */
+  padding: 30px;
+}
+
+.card-header {
+  background: #9b9999;
+  border-radius: 20px;
+  padding: 1rem;
+  margin-bottom: 1.4rem;
+}
+
+.card-header h2 {
+  font-size: 20px;
+}
+
+.card-header p {
+  opacity: 50%;
+}
+
+.card_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #996ed9;
+  margin-right: 10px;
+}
+.card-title {
+}
+
+.card-quotes {
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
