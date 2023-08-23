@@ -1,0 +1,8 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #fff;
+  box-shadow: #9b9898;
+
+  margin: 100px 100px;
+}
